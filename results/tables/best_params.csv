@@ -1,0 +1,5 @@
+model,max_samples,n_estimators,max_features,learning_rate,max_depth
+Bagging,1.0,100,,,
+Random forest,,100,sqrt,,
+AdaBoost,,100,,0.5,
+Gradient boosting,,200,,0.1,2.0

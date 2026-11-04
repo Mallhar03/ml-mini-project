@@ -1,0 +1,8 @@
+Python: 3.12.3
+scikit-learn: 1.9.1
+NumPy: 1.26.4
+pandas: 3.0.6
+SciPy: 1.17.1
+Matplotlib: 3.11.2
+seaborn: 0.13.2
+Generated (UTC): 2026-11-04T15:40:05.001921+00:00

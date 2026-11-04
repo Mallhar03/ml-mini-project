@@ -1,0 +1,69 @@
+=== Most frequent ===
+              precision    recall  f1-score   support
+
+      Benign       0.63      1.00      0.77        72
+   Malignant       0.00      0.00      0.00        42
+
+    accuracy                           0.63       114
+   macro avg       0.32      0.50      0.39       114
+weighted avg       0.40      0.63      0.49       114
+
+=== Decision tree ===
+              precision    recall  f1-score   support
+
+      Benign       0.94      0.94      0.94        72
+   Malignant       0.90      0.90      0.90        42
+
+    accuracy                           0.93       114
+   macro avg       0.92      0.92      0.92       114
+weighted avg       0.93      0.93      0.93       114
+
+=== Decision stump ===
+              precision    recall  f1-score   support
+
+      Benign       0.85      0.97      0.91        72
+   Malignant       0.94      0.71      0.81        42
+
+    accuracy                           0.88       114
+   macro avg       0.90      0.84      0.86       114
+weighted avg       0.88      0.88      0.87       114
+
+=== Bagging ===
+              precision    recall  f1-score   support
+
+      Benign       0.96      1.00      0.98        72
+   Malignant       1.00      0.93      0.96        42
+
+    accuracy                           0.97       114
+   macro avg       0.98      0.96      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+=== Random forest ===
+              precision    recall  f1-score   support
+
+      Benign       0.96      1.00      0.98        72
+   Malignant       1.00      0.93      0.96        42
+
+    accuracy                           0.97       114
+   macro avg       0.98      0.96      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+=== AdaBoost ===
+              precision    recall  f1-score   support
+
+      Benign       0.96      1.00      0.98        72
+   Malignant       1.00      0.93      0.96        42
+
+    accuracy                           0.97       114
+   macro avg       0.98      0.96      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+=== Gradient boosting ===
+              precision    recall  f1-score   support
+
+      Benign       0.95      1.00      0.97        72
+   Malignant       1.00      0.90      0.95        42
+
+    accuracy                           0.96       114
+   macro avg       0.97      0.95      0.96       114
+weighted avg       0.97      0.96      0.96       114
